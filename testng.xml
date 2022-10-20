@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Reqres Tests">
+    <test name="ReqresTestWithPOJO Suite">
+        <classes>
+            <class name="APITests.ReqresTestWithPOJO"/>
+        </classes>
+    </test>
+    <test name="ReqresTestWithoutPOJO Suite">
+        <classes>
+            <class name="APITests.ReqresTestWithoutPOJO"/>
+        </classes>
+    </test>
+</suite>
+
